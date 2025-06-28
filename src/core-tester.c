@@ -7,7 +7,6 @@
 #include <dirent.h>
 #include <ctype.h>
 
-#include "../include/strings.h"
 #include "../include/core-option-tester.h"
 
 #define MASK_ENV(cmd) ((cmd) & ~(RETRO_ENVIRONMENT_EXPERIMENTAL | RETRO_ENVIRONMENT_PRIVATE))
